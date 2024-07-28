@@ -1,0 +1,114 @@
+.s_win {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	z-index: 26000;
+}
+.s_win .s_win_in {
+	padding: 20px 18px 15px 18px;	
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-gray-bg.png') repeat-y;
+}
+.s_win .s_win_cross {
+	position:absolute;
+	top: 4px;
+	right: 5px;
+	width: 50px;
+	padding-left: 15px;
+	height: 22px;
+	line-height: 22px;
+	color: #4b5457;
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/krizek.gif') no-repeat;
+	text-align: left;
+	cursor: pointer !important;
+}
+.s_win .s_win_title {
+	position:absolute;
+	top: 7px;
+	left: 16px;
+	width: 400px;
+	color: #000;
+	font-size: 14px;
+	text-align: left;
+	cursor: pointer !important;
+}
+.s_win_top {
+	width: 505px;
+	height: 33px;
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-gray-top.png') no-repeat;
+}
+.s_win_bottom {
+	width: 505px;
+	height: 9px;
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-gray-bottom.png') no-repeat;
+}
+.swin_bad .s_win_top {
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-red-top.png') no-repeat;
+}
+.swin_bad .s_win_bottom {
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-red-bottom.png') no-repeat;
+}
+.swin_bad .s_win_in {
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-red-bg.png') repeat-y;
+}
+.swin_good .s_win_top {
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-green-top.png') no-repeat;
+}
+.swin_good .s_win_bottom {
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-green-bottom.png') no-repeat;
+}
+.swin_good .s_win_in {
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/win-green-bg.png') repeat-y;
+}
+.verifyPopup {}
+.verifyPopup .s_win_top {
+    width:100%;
+    height:30px;
+    line-height:20px;
+    background: none;
+    background-color: #000;
+}
+.verifyPopup .s_win_title {
+	position:absolute;
+	top: -2px;
+	left: 20px;
+	width: 400px;
+	color: #fff;
+    font-family: Roboto Condensed !important;
+    font-size: 18px;
+	text-align: left;
+	cursor: pointer !important;
+	padding: 5px 0;
+}
+.verifyPopup .s_win_cross {
+	position:absolute;
+	top:11px;
+	right: 0px;
+	width: 9px;
+	padding: 0px;
+	height: 9px;
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/SWindow/imgs/krizekVerifyPopup.png') no-repeat;
+	cursor: pointer !important;
+}
+.verifyPopup .s_win_cross span {
+    display: none;
+}
+.verifyPopup .s_win_in {
+	padding: 16px;	
+	background: none;
+	background: #fff;
+}
+@media (max-width:792px) {
+	.verifyPopup .s_win_cross{
+		top:6px;
+	}
+	.verifyPopup .s_win_title {
+		top: -6px;
+	}
+	.s_win {
+		max-width:100%;
+		width:auto;
+		height:550px !important;
+		overflow: scroll !important;
+	}
+}

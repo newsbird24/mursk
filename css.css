@@ -1,0 +1,30 @@
+.hs_buts_bar {
+	height: 19px;
+	padding-top: 4px;
+	/*background-color: #eee4e3;*/
+	clear: both;
+}
+.hs_buts_bar div {
+	float: right;
+	height: 19px;
+	cursor: pointer !important;
+}
+.hs_buts_bar .hs_dot {
+	width: 9px;
+	margin-left: 3px;
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/HorizontalScroller/imgs/dot-off.gif') no-repeat;
+}
+.hs_buts_bar .hs_dot_active {
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/HorizontalScroller/imgs/dot-on.gif') no-repeat;
+}
+.hs_arrow_left {
+	width: 19px;
+	margin-left: 8px;
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/HorizontalScroller/imgs/left-arrow.gif') no-repeat;
+}
+.hs_arrow_right {
+	width: 19px;
+	margin-left: 5px;
+	margin-right: 10px;
+	background: url('https://www.blazek.sk/js/sjel_c/Fxs/HorizontalScroller/imgs/right-arrow.gif') no-repeat;
+}
